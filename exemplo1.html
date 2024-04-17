@@ -1,68 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo 1 - Script Interno</title>
-
-    
-    <style>
-        h1 {
-background-color: rgb(49, 49, 49);
-color: blanchedalmond;
-text-align: center;
-padding: 20px;
-
-}
-
-#botaoInterno {
-display: block;
-margin: 20px auto;
-padding: 30px 100px;
-background-color: #e719a9;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-}
-
-#botaoInterno:hover {
-background-color: #a827cf;
-display: block;
-margin: 20px auto;
-padding: 10px 20px;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-}
-
-body {
-font-family: Arial, sans-serif;
-background-color: #87ff8d;
-padding: 20px;
-}
-
-header{
-    background-color: #42a4ff;
-  text-align: center;
-  padding: 20px;
-}
-    </style>
-
+    <title>Exemplo de Script Interno</title>
 </head>
 <body>
-
-    <header><h2>Exemplo 1 - Script Interno</h2></header>
-    <button id="botaoInterno">Clique Aqui</button>
-
+    <h1>Teste de JavaScript Interno</h1>
+    <button onclick="mostrarMensagem()">Clique Aqui</button>
     <script>
-        function exibirAlerta() {
-            alert("Você clicou no botão!");
+        function mostrarMensagem() {
+            alert('Olá, mundo! Este é um exemplo de script interno.');
         }
     </script>
 </body>
 </html>
-
